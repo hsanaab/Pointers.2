@@ -50,5 +50,5 @@ int main(){
   
   Array two = one;
 
-  
+  return 0;
 }
