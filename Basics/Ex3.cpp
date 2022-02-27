@@ -20,8 +20,8 @@ int main() {
     cout << *pointFloat << endl;
 
     // deallocate the memory
-    delete pointInt;
-    delete pointFloat;
+  delete pointInt;
+  delete pointFloat;
 
     return 0;
 }

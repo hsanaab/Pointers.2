@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 class Array
@@ -42,3 +43,12 @@ private:
     int size;    //array elements
     int *arr;    //dynamic array pointer
 };
+
+int main(){
+
+  Array one(5);
+  
+  Array two = one;
+
+  return 0;
+}
